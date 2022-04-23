@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './App.css';
-function App() {
+import './TextSlider.css';
+function TextSlider() {
   
   const words=[
     {id:0,value:"Apple"},
@@ -16,7 +16,7 @@ function App() {
     setWordData(wordSlider)
   }
   return (
-    <div className="App">
+    <div className="main">
       <div>" {wordData} "</div>
       <div className='flex_row'>
         {words.map((data,i)=>
@@ -27,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default TextSlider;
