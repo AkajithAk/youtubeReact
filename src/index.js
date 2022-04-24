@@ -6,8 +6,9 @@ import TextSlider from './Components/TextSlider/TextSlider';
 import HtmlEditor from './Components/htmlEditor/Htmleditor';
 import GetApiCall from './Components/FetchApiCall/GetApiCall';
 import DynamicInput from './Components/Loading/Loading';
+import Form from './Components/FormValidation/Form';
 
 ReactDOM.render(
-    <DynamicInput />,
+    <Form />,
   document.getElementById('root')
 );

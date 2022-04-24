@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+}
+div{
+    padding: 8px;
+}
+input{
+    height: 30px;
+    width: 30%;
+}
+button{
+    height: 30px;
+    width: 20%;
+}
+label{
+    color: red;
+}
