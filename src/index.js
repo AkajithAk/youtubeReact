@@ -7,8 +7,9 @@ import HtmlEditor from './Components/htmlEditor/Htmleditor';
 import GetApiCall from './Components/FetchApiCall/GetApiCall';
 import DynamicInput from './Components/Loading/Loading';
 import Form from './Components/FormValidation/Form';
+import RoutingReact from './Components/Routing/Routing';
 
 ReactDOM.render(
-    <Form />,
+    <RoutingReact />,
   document.getElementById('root')
 );
